@@ -150,7 +150,7 @@
                 </div>
             </div>
         </section>
-        <!--<section class="section bg-secondary">
+        <section class="section bg-secondary">
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6">
@@ -173,7 +173,7 @@
                         <div class="pl-md-5">
                             <icon name="ni ni-settings" class="mb-5" size="lg" type="warning" shadow rounded></icon>
 
-                            <h3>Our customers</h3>
+                            <h3>About us</h3>
                             <p class="lead">Don't let your uses guess by attaching tooltips and popoves to any element.
                                 Just make sure you enable them first via JavaScript.</p>
                             <p>The kit comes with three pre-built pages to help you get started faster. You can change
@@ -198,11 +198,11 @@
             </div>
             <div class="container py-0">
                 <div class="row row-grid align-items-center">
-                    <div class="col-md-6 order-lg-2 ml-lg-auto">
+                    <!--<div class="col-md-6 order-lg-2 ml-lg-auto">
                         <div class="position-relative pl-md-5">
                             <img src="img/ill/ill-2.svg" class="img-center img-fluid">
                         </div>
-                    </div>
+                    </div>-->
                     <div class="col-lg-6 order-lg-1">
                         <div class="d-flex px-3">
                             <div>
@@ -210,12 +210,11 @@
                                       rounded></icon>
                             </div>
                             <div class="pl-4">
-                                <h4 class="display-3 text-white">Modern Interface</h4>
-                                <p class="text-white">The Arctic Ocean freezes every winter and much of the sea-ice then
-                                    thaws every summer, and that process will continue whatever happens.</p>
+                                <h4 class="display-3 text-white">Grant directory</h4>
+                                <p>If using the chat bot isn't for you, our comprehensive directory can help. Please use the filters to zoom in on the grant you're looking for.</p>
                             </div>
                         </div>
-                        <card shadow class="shadow-lg--hover mt-5">
+                        <!--<card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
                                     <icon name="ni ni-satisfied" gradient="success" color="white" shadow
@@ -242,12 +241,15 @@
                                     <a href="#" class="text-warning">Learn more</a>
                                 </div>
                             </div>
-                        </card>
+                        </card>-->
                     </div>
                 </div>
+                <br/>
+                <br/>
+                <iframe class="airtable-embed" src="https://airtable.com/embed/shr7SgLroBuasUtxM?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="1030" style="background: transparent; border: 1px solid #ccc;"></iframe>
             </div>
         </section>
-        <section class="section section-lg">
+        <!--<section class="section section-lg">
             <div class="container">
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
