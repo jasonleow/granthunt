@@ -187,7 +187,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section section-shaped my-0 overflow-hidden">
+        <section class="section section section-shaped my-0 overflow-hidden" id="directory">
             <div class="shape shape-style-1 bg-gradient-warning shape-skew">
                 <span></span>
                 <span></span>
@@ -203,15 +203,15 @@
                             <img src="img/ill/ill-2.svg" class="img-center img-fluid">
                         </div>
                     </div>-->
-                    <div class="col-lg-6 order-lg-1">
+                    <div class="col-lg-8">
                         <div class="d-flex px-3">
                             <div>
                                 <icon name="ni ni-building" size="lg" class="bg-gradient-white" color="primary" shadow
                                       rounded></icon>
                             </div>
-                            <div class="pl-4">
+                            <div class="pl-4"> 
                                 <h4 class="display-3 text-white">Grant directory</h4>
-                                <p>If using the chat bot isn't for you, our comprehensive directory can help. Please use the filters to zoom in on the grant you're looking for.</p>
+                                <p class="text-white">If using the chat bot isn't for you, our comprehensive directory of social impact grants can help. Please use the filters or search bar to zoom in on the grant you're looking for.</p>
                             </div>
                         </div>
                         <!--<card shadow class="shadow-lg--hover mt-5">
@@ -249,16 +249,15 @@
                 <iframe class="airtable-embed" src="https://airtable.com/embed/shr7SgLroBuasUtxM?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="1030" style="background: transparent; border: 1px solid #ccc;"></iframe>
             </div>
         </section>
-        <!--<section class="section section-lg">
+        <section class="section section-lg">
             <div class="container">
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
-                        <h2 class="display-3">The amazing Team</h2>
-                        <p class="lead text-muted">According to the National Oceanic and Atmospheric Administration,
-                            Ted, Scambos, NSIDClead scentist, puts the potentially record maximum.</p>
+                        <h2 class="display-3">Testimonials</h2>
+                        <p class="lead text-muted">"The bot was pretty useful. I learnt about some grants I didn't know about." - Louis, social entrepreneur</p>
                     </div>
                 </div>
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
                             <img v-lazy="'img/theme/team-1-800x800.jpg'"
@@ -343,9 +342,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
-        </section>-->
+        </section>
         <section class="section section-lg pt-0">
             <div class="container">
                 <card gradient="warning"

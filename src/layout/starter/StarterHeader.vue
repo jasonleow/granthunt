@@ -1,5 +1,5 @@
 <template>
-    <header class="header-global">
+    <header class="header-global" id="home">
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
                 <img src="img/brand/white.png">
@@ -16,7 +16,24 @@
                 </div>
             </div>
 
-            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+            <ul class="navbar-nav ml-lg-auto">
+                <li class="nav-item">
+                    <a href="https://m.me/gogranthunt" class="nav-link" target="_blank">
+                        Chat bot
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#directory" class="nav-link">
+                        Directory
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://goo.gl/forms/IqEc0Mb6XlJp0k933" class="nav-link" target="_blank">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <!--<ul class="navbar-nav navbar-nav-hover align-items-lg-center">
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-ui-04 d-lg-none"></i>
@@ -61,8 +78,8 @@
                         <router-link to="/register" class="dropdown-item">Register</router-link>
                     </div>
                 </li>
-            </ul>
-            <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+            </ul>-->
+            <!--<ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="https://www.facebook.com/creativetim" target="_blank"
                        data-toggle="tooltip" title="Like us on Facebook">
@@ -100,7 +117,7 @@
                         <span class="nav-link-inner--text">Download</span>
                     </a>
                 </li>
-            </ul>
+            </ul>-->
         </base-nav>
     </header>
 </template>

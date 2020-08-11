@@ -60,19 +60,19 @@
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{year}}
-                        <a href="/" target="_blank" rel="noopener">Grant Hunt</a>
+                        Grant Hunt
                     </div>
                 </div>
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
-                            <a href="/" class="nav-link" target="_blank">Home</a>
+                            <a href="#home" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
                             <a href="https://m.me/gogranthunt" class="nav-link" target="_blank">Chat bot</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://gogranthunt.com/#directory" class="nav-link" target="_blank">Directory</a>
+                            <a href="#directory" class="nav-link">Directory</a>
                         </li>
                         <li class="nav-item">
                             <a href="https://goo.gl/forms/IqEc0Mb6XlJp0k933"
