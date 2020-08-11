@@ -42,11 +42,11 @@
                             </div>
                             <div class="col-lg-5 mb-lg-auto">
                     <div class="transform-perspective-right">
-                        <card class="border-0" type="secondary" shadow
+                        <!--<card class="border-0" type="secondary" shadow
                               body-classes="px-lg-5 py-lg-5"
-                              header-classes="pb-5 bg-white">
+                              header-classes="pb-5 bg-white">-->
                             <img src="img/theme/promo-1.png" class="img-fluid floating">
-                        </card>
+                        <!--</card>-->
                     </div>
                 </div>
                         </div>
@@ -62,7 +62,7 @@
                         <div class="row row-grid">
                             <div class="col-lg-4">
                                 <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
+                                    <icon name="ni ni-compass-04" type="primary" rounded class="mb-4">
                                     </icon>
                                     <h6 class="text-primary text-uppercase">Guided search</h6>
                                     <p class="description mt-3">The chat bot guides you through a series of 4 questions to help you zoom in on grants relevant to you.</p>
@@ -78,7 +78,7 @@
                             </div>
                             <div class="col-lg-4">
                                 <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-istanbul" type="success" rounded class="mb-4">
+                                    <icon name="ni ni-collection" type="success" rounded class="mb-4">
                                     </icon>
                                     <h6 class="text-success text-uppercase">Comprehensive listing</h6>
                                     <p class="description mt-3">We mapped out all the grants available out there in Singapore currently, and adding more as we go!</p>
@@ -94,7 +94,7 @@
                             </div>
                             <div class="col-lg-4">
                                 <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-planet" type="warning" rounded class="mb-4">
+                                    <icon name="ni ni-favourite-28" type="warning" rounded class="mb-4">
                                     </icon>
                                     <h6 class="text-warning text-uppercase">Personalised discovery</h6>
                                     <p class="description mt-3">Looking for grants as an individual or for an organisation, or grants for specific causes? We got it all covered.</p>
@@ -117,7 +117,7 @@
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-md-2">
-                        <img src="img/theme/promo-1.png" class="img-fluid floating">
+                        <img src="img/theme/promo-2.png" class="img-fluid floating">
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
@@ -128,19 +128,19 @@
                             <ul class="list-unstyled mt-5">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
+                                        <badge type="success" circle class="mr-3" icon="ni ni-chat-round"></badge>
                                         <h6 class="mb-0">Chat with the <a href="https://www.messenger.com/t/gogranthunt" target="_blank" rel="noopener">Grant Hunt bot on Messenger</a></h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge>
+                                        <badge type="success" circle class="mr-3" icon="ni ni-collection"></badge>
                                         <h6 class="mb-0">If you don't find anything, check out our <a href="https://gogranthunt.com/directory" target="_blank" rel="noopener">Directory</a>.</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
+                                        <badge type="success" circle class="mr-3" icon="ni ni-headphones"></badge>
                                         <h6 class="mb-0">When all else fails, <a href="https://goo.gl/forms/IqEc0Mb6XlJp0k933" target="_blank" rel="noopener">contact live support</a>!</h6>
                                     </div>
                                 </li>
@@ -155,33 +155,27 @@
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6">
                         <div class="card bg-default shadow border-0">
-                            <img v-lazy="'img/theme/img-1-1200x1000.jpg'" class="card-img-top">
+                            <a href="https://www.majurity.sg/sgstrong" target="_blank" rel="noopener"><img v-lazy="'img/brand/majurity-trust.png'" class="card-img-top"></a>
                             <blockquote class="card-blockquote">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                                      class="svg-bg">
                                     <polygon points="0,52 583,95 0,95" class="fill-default"></polygon>
                                     <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default"></polygon>
                                 </svg>
-                                <h4 class="display-3 font-weight-bold text-white">Design System</h4>
-                                <p class="lead text-italic text-white">The Arctic Ocean freezes every winter and much of
-                                    the sea-ice then thaws every summer, and that process will continue whatever
-                                    happens.</p>
+                                <h4 class="display-3 font-weight-bold text-white">Our funder</h4>
+                                <p class="lead text-italic text-white">This project is supported by the <strong>SG Strong fund under The Majurity Trust</strong>. Big thanks to them for funding this project refresh.</p>
                             </blockquote>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="pl-md-5">
-                            <icon name="ni ni-settings" class="mb-5" size="lg" type="warning" shadow rounded></icon>
+                            <icon name="ni ni-badge" class="mb-5" size="lg" type="warning" shadow rounded></icon>
 
-                            <h3>About us</h3>
-                            <p class="lead">Don't let your uses guess by attaching tooltips and popoves to any element.
-                                Just make sure you enable them first via JavaScript.</p>
-                            <p>The kit comes with three pre-built pages to help you get started faster. You can change
-                                the text and images and you're good to go.</p>
-                            <p>The kit comes with three pre-built pages to help you get started faster. You can change
-                                the text and images and you're good to go.</p>
-                            <a href="#" class="font-weight-bold text-warning mt-5">A beautiful UI Kit for impactful
-                                websites</a>
+                            <h3>About Grant Hunt</h3>
+                            <p class="lead">Searching for the right social impact grant in Singapore right now is mostly a confusing, fragmented experience.</p>
+                            <p>Finding a grant consisted of clicking on website after website of funders and foundations, reading the qualifying criteria, understanding the grant objectives, putting that in a spreadsheet and finally trying to triangulate between various grant options. There’s really no easy way for grant applicants to ‘shop’ for grants. It’s even more frustrating considering how huge and diverse the grant landscape is. 
+                            <p>There's got to be a better way to help people who wish to start social impact projects, and make their experience of finding a grant more engaging, personalised, and delightful.</p>
+                            <p class="font-weight-bold text-italic text-warning">What if we could use some of the emerging new technologies like chat bots to provide a better grant search and discovery experience?</p>
                         </div>
                     </div>
                 </div>
@@ -206,7 +200,7 @@
                     <div class="col-lg-8">
                         <div class="d-flex px-3">
                             <div>
-                                <icon name="ni ni-building" size="lg" class="bg-gradient-white" color="primary" shadow
+                                <icon name="ni ni-collection" size="lg" class="bg-gradient-white" color="primary" shadow
                                       rounded></icon>
                             </div>
                             <div class="pl-4"> 
@@ -253,6 +247,10 @@
             <div class="container">
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
+                        <div>
+                            <icon name="ni ni-collection" size="lg" class="bg-gradient-white" color="primary" shadow rounded></icon>
+                        </div>
+                        <br/>
                         <h2 class="display-3">Testimonials</h2>
                         <p class="lead text-muted">"The bot was pretty useful. I learnt about some grants I didn't know about." - Louis, social entrepreneur</p>
                     </div>
