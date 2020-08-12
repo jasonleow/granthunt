@@ -4,7 +4,8 @@
         <div class="position-relative">
             <!-- shape Hero -->
             <section class="section-shaped my-0">
-                <div class="shape shape-style-1 shape-default shape-skew">
+                <div class="shape shape-style-1 shape-default shape-skew" style="background: linear-gradient(150deg,#11cdef 0%,#7795f8 15%,#f5365c 70%,#2dce89 94%,#555abf 99%) !important;">
+                    <!--<span></span>
                     <span></span>
                     <span></span>
                     <span></span>
@@ -12,8 +13,7 @@
                     <span></span>
                     <span></span>
                     <span></span>
-                    <span></span>
-                    <span></span>
+                    <span></span>-->
                 </div>
                 <div class="container shape-container d-flex">
                     <div class="col px-0">
@@ -183,12 +183,12 @@
         </section>
         <section class="section section section-shaped my-0 overflow-hidden" id="directory">
             <div class="shape shape-style-1 bg-gradient-warning shape-skew">
+                <!--<span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                <span></span>
-                <span></span>
+                <span></span>-->
             </div>
             <div class="container py-0">
                 <div class="row row-grid align-items-center">
@@ -248,7 +248,7 @@
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
                         <div>
-                            <icon name="ni ni-collection" size="lg" class="bg-gradient-white" color="primary" shadow rounded></icon>
+                            <icon name="ni ni-satisfied" size="lg" class="bg-gradient-white" color="primary" shadow rounded></icon>
                         </div>
                         <br/>
                         <h2 class="display-3">Testimonials</h2>
