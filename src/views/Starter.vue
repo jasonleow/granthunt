@@ -121,8 +121,9 @@
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
-                            <icon name="ni ni-settings-gear-65" class="mb-5" size="lg" type="success" shadow
-                                  rounded></icon>
+                            <icon name="ni ni-settings-gear-65" size="lg" class="mb-5 bg-gradient-success text-white" shadow rounded></icon>
+                            <!--<icon name="ni ni-settings-gear-65" class="mb-5" size="lg" type="success" shadow
+                                  rounded></icon>-->
                             <h3>How it works</h3>
                             <p>Here's how you can find your social impact grant:</p>
                             <ul class="list-unstyled mt-5">
@@ -169,7 +170,8 @@
                     </div>
                     <div class="col-md-6">
                         <div class="pl-md-5">
-                            <icon name="ni ni-badge" class="mb-5" size="lg" type="warning" shadow rounded></icon>
+                            <icon name="ni ni-badge" size="lg" class="mb-5 bg-gradient-warning text-white" shadow rounded></icon>
+                            <!--<icon name="ni ni-badge" class="mb-5" size="lg" type="warning" shadow rounded></icon>-->
 
                             <h3>About Grant Hunt</h3>
                             <p class="lead">Searching for the right social impact grant in Singapore right now is mostly a confusing, fragmented experience.</p>
@@ -182,7 +184,7 @@
             </div>
         </section>
         <section class="section section section-shaped my-0 overflow-hidden" id="directory">
-            <div class="shape shape-style-1 bg-gradient-warning shape-skew">
+            <div class="shape shape-style-1 bg-gradient-info shape-skew">
                 <!--<span></span>
                 <span></span>
                 <span></span>
@@ -200,7 +202,7 @@
                     <div class="col-lg-8">
                         <div class="d-flex px-3">
                             <div>
-                                <icon name="ni ni-collection" size="lg" class="bg-gradient-white" color="primary" shadow
+                                <icon name="ni ni-collection" size="lg" class="bg-gradient-white text-info" shadow
                                       rounded></icon>
                             </div>
                             <div class="pl-4"> 
@@ -248,7 +250,7 @@
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
                         <div>
-                            <icon name="ni ni-satisfied" size="lg" class="bg-gradient-white" color="primary" shadow rounded></icon>
+                            <icon name="ni ni-satisfied" size="lg" class="bg-gradient-danger text-white" shadow rounded></icon>
                         </div>
                         <br/>
                         <h2 class="display-3">Testimonials</h2>
@@ -345,10 +347,11 @@
         </section>
         <section class="section section-lg pt-0">
             <div class="container">
-                <card gradient="warning"
+                <card gradient="primary"
                       no-body
                       shadow-size="lg"
-                      class="border-0">
+                      class="border-0"
+                      >
                     <div class="p-5">
                         <div class="row align-items-center">
                             <div class="col-lg-8">
