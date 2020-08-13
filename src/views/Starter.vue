@@ -15,7 +15,7 @@
                     <span></span>
                     <span></span>-->
                 </div>
-                <div class="container shape-container d-flex">
+                <div class="container shape-container d-flex" style="padding-top: 12rem !important;">
                     <div class="col px-0">
                         <div class="row row-grid justify-content-between align-items-center">
                             <div class="col-lg-6">
@@ -55,7 +55,7 @@
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <section class="section section-lg pt-lg-0 mt--200">
+        <section class="section section-lg pt-lg-0 mt--200" style="">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
