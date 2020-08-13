@@ -207,7 +207,7 @@
                             </div>
                             <div class="pl-4"> 
                                 <h4 class="display-3 text-white">Grant directory</h4>
-                                <p class="text-white">If using the chat bot isn't for you, our comprehensive directory of social impact grants can help. Please use the filters or search bar to zoom in on the grant you're looking for.</p>
+                                <p class="text-white">If using the chat bot isn't for you, our comprehensive directory of social impact grants can help. Please use the filters or search bar (desktop only) to zoom in on the grant you're looking for.</p>
                             </div>
                         </div>
                         <!--<card shadow class="shadow-lg--hover mt-5">
