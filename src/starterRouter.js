@@ -19,6 +19,24 @@ export default new Router({
       }
     },
     {
+      path: "/home",
+      name: "starter",
+      components: {
+        header: Header,
+        default: Starter,
+        footer: Footer
+      }
+    },
+    {
+      path: "/directory",
+      name: "starter",
+      components: {
+        header: Header,
+        default: Starter,
+        footer: Footer
+      }
+    },
+    {
       path: "/profile",
       name: "profile",
       components: {
