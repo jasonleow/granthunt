@@ -136,7 +136,7 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-collection"></badge>
-                                        <h6 class="mb-0">If you don't find anything, check out our <a href="https://gogranthunt.com/#directory" target="_blank" rel="noopener">Directory</a>.</h6>
+                                        <h6 class="mb-0">If you don't find anything, check out our <a href="https://gogranthunt.com/#directory">Directory</a>.</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
